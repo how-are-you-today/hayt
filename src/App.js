@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { Routes,Router, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import NavBar from './NavBar';
 import Home from './Home';
 import Blog from './Blog';
@@ -16,7 +16,7 @@ function App() {
       
       <header className='content' >
         <Routes>
-          <Route exact path = "/" element={<Home/>}/>
+          <Route path = "/hayt/" element={<Home/>}/>
           <Route path = "/contact" element={<Contact/>}/>
           <Route path = "/blog" element={<Blog/>}/>
           <Route path="/full-blog/:id" element={<FullBlog/>} /> 
