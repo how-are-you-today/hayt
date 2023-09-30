@@ -16,7 +16,7 @@ function App() {
       
       <header className='content' >
         <Routes>
-          <Route exact path = "/" element={<Home/>}/>
+          <Route path = "/" element={<Home/>}/>
           <Route path = "/contact" element={<Contact/>}/>
           <Route path = "/blog" element={<Blog/>}/>
           <Route path="/full-blog/:id" element={<FullBlog/>} /> 
