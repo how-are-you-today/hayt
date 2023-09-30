@@ -1,15 +1,15 @@
 import './App.css';
 import React from 'react';
-import { Routes,Router, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import NavBar from './NavBar';
 import Home from './Home';
 import Blog from './Blog';
 import FullBlog from './FullBlog';
 import Contact from './Contact';
-
+import Footer from './Footer';
 function App() {
   return (
-    <div >
+    <body>
       <div className='navBar'>
       <NavBar /> 
       </div>
@@ -21,8 +21,13 @@ function App() {
           <Route path = "/blog" element={<Blog/>}/>
           <Route path="/full-blog/:id" element={<FullBlog/>} /> 
         </Routes>
+        
       </header>
-    </div>
+      <div className='footer' >
+        <Footer/>
+      </div>
+      
+    </body>
   );
 }
 

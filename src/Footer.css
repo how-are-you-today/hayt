@@ -1,0 +1,39 @@
+.footer-container {
+    background-color: rgb(39, 64, 205); /* Blue background color */
+    color: white; /* White text color */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .footer-logo img {
+    width: 100px;
+    height: 100px;
+  }
+  .contact-info ul{
+    display: grid;
+    text-align: left;
+  }
+  .contact-info,
+  .social-media {
+    text-align: center;
+  }
+  
+  .contact-info span,
+  .social-media a {
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Style the Facebook link on hover */
+  .social-media a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Add more styling as needed for your specific design */
+  
