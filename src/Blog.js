@@ -1,7 +1,5 @@
-// Blog.js
-
 import React from 'react';
-import './Blog.css'; // Import the CSS file for Blog component styles
+import './Blog.css'; 
 import {Link} from 'react-router-dom';
 import userBlogs from './userBlogs';
 

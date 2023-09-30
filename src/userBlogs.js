@@ -12,7 +12,7 @@ const userBlogs = [
       username: 'JohnDoe',
       title: 'My First Blog Post',
       content:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...',
+        'Lorem ipsum \ndolor sit amet, consectetur adipiscing elit. ...',
       date: 'September 30, 2023', 
     },
     {

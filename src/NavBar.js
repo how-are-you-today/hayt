@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // If you are using React Router for routing
+import { Link } from 'react-router-dom';
 import './NavBar.css';
 
 function NavBar() {
@@ -10,7 +10,10 @@ function NavBar() {
       </a>
       <ul>
         <li>
+
           <Link to="/hayt/" className='custom-button'>HOME</Link>
+          
+
         </li>
         <li>
           <Link to="/blog" className='custom-button'>BLOG</Link>
