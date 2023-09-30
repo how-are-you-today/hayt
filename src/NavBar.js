@@ -11,7 +11,7 @@ function NavBar() {
       <ul>
         <li>
           
-          <Link to="/" className='custom-button'>HOME</Link>
+          <Link to="/hayt/" className='custom-button'>HOME</Link>
           
         </li>
         <li>
