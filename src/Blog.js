@@ -21,7 +21,7 @@ function Blog() {
             <h3 className="blog-card-title">{blog.title}</h3>
             <p className="blog-card-username">By {blog.username}</p>
             <p className="blog-card-date">Published on {blog.date}</p>
-            <p className="blog-card-content">{truncateContent(blog.content,10)}</p>
+            <p className="blog-card-content">{truncateContent(blog.content,30)}</p>
             <Link to={`/full-blog/${blog.id}`} className="read-more-link" blog={blog}>
               Read More
             </Link>
